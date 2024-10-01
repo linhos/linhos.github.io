@@ -1,89 +1,148 @@
+/* Basic reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
 }
 
 body {
-    background-color: #ffffff;
-    color: #333;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    padding: 20px;
+    background-color: #f5f5f5;
+    color: #333;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
+/* Header */
 header {
-    text-align: center;
-    padding-bottom: 20px;
-    border-bottom: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
 }
 
-h1 {
-    font-size: 36px;
-    color: #000;
-    margin-bottom: 10px;
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
-h2 {
-    font-size: 22px;
-    color: #555;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
 }
 
-.contact-info {
-    text-align: center;
-    margin: 20px 0;
+nav ul {
+    list-style: none;
+    display: flex;
 }
 
-.contact-info p {
-    font-size: 14px;
-    color: #444;
+nav ul li {
+    margin-left: 20px;
 }
 
-a {
-    color: #000;
+nav ul li a {
     text-decoration: none;
+    color: #fff;
+    font-weight: 500;
 }
 
-a:hover {
+nav ul li a:hover {
     text-decoration: underline;
 }
 
-h3 {
-    font-size: 20px;
-    margin: 20px 0;
-    border-bottom: 1px solid #000;
-    padding-bottom: 5px;
+/* Hero Section */
+#hero {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
 }
 
-section {
+.hero-text h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 20px;
     margin-bottom: 40px;
 }
 
-.job {
-    margin-bottom: 15px;
-}
-
-.job h4 {
-    font-size: 18px;
-    font-weight: bold;
+.cta-button {
+    background-color: #fff;
     color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
-ul {
-    list-style-type: none;
+.cta-button:hover {
+    background-color: #f5f5f5;
 }
 
-ul li {
+/* Section Styling */
+section {
+    padding: 60px 20px;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Projects */
+.project-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.project-item {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
     margin-bottom: 10px;
 }
 
-footer {
-    text-align: center;
-    font-size: 14px;
-    color: #444;
+/* Skills */
+.skills-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 18px;
 }
+
+.skills-list li {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Contact */
+#contact p {
+    font-size: 20px;
+   
