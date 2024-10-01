@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
-    background-color: #fff;
+    background-color: #ffffff;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -14,28 +14,29 @@ body {
 
 header {
     text-align: center;
+    padding-bottom: 20px;
     border-bottom: 2px solid #000;
-    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 36px;
     color: #000;
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 22px;
     color: #555;
 }
 
-.contact-info, .about, .experience, .skills, .education, footer {
-    margin-bottom: 20px;
+.contact-info {
+    text-align: center;
+    margin: 20px 0;
 }
 
-.contact-info p, .about p {
+.contact-info p {
     font-size: 14px;
     color: #444;
-    text-align: center;
 }
 
 a {
@@ -49,9 +50,13 @@ a:hover {
 
 h3 {
     font-size: 20px;
+    margin: 20px 0;
     border-bottom: 1px solid #000;
-    margin-bottom: 10px;
     padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 40px;
 }
 
 .job {
@@ -67,18 +72,18 @@ h3 {
 .date {
     font-size: 14px;
     color: #777;
-}
-
-ul {
-    list-style: none;
-    margin-left: 0;
-}
-
-ul li {
     margin-bottom: 5px;
 }
 
-footer p {
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
     text-align: center;
     font-size: 14px;
     color: #444;
