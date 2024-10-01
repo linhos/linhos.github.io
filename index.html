@@ -3,57 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Carlos González - Software Developer CV">
-    <title>Carlos González - Software Developer</title>
+    <meta name="description" content="Personal Portfolio Website">
+    <title>Personal Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Carlos González</h1>
-            <h2>Software Developer</h2>
-        </header>
+    <header>
+        <div class="nav-container">
+            <h1 class="logo">Carlos González</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <section class="contact-info">
-            <p>(34) 658 166913 | <a href="mailto:carlos@gonzalezlopez.dev">carlos@gonzalezlopez.dev</a></p>
-        </section>
+    <section id="hero">
+        <div class="hero-text">
+            <h2>Hello, I'm Carlos</h2>
+            <p>A passionate software developer building scalable web solutions.</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
 
-        <section class="about">
-            <h3>About Me</h3>
-            <p>I'm a Fullstack developer from A Coruña. When I'm not programming, I love running in the mountains and spending time with my family. Lately, I've been passionate about cosmology and I can't stop reading books about it.</p>
-        </section>
+    <section id="about">
+        <div class="content">
+            <h2>About Me</h2>
+            <p>I'm a Fullstack Developer based in A Coruña, with a love for building efficient, scalable software. When not coding, I enjoy running in the mountains and reading about cosmology.</p>
+        </div>
+    </section>
 
-        <section class="experience">
-            <h3>Experience</h3>
-            <div class="job">
-                <h4>Adevinta, Senior Frontend Engineer</h4>
-                <p>Responsible for overseeing authentication and authorization processes for Adevinta Spain's portals, and helping teams implement scalable solutions.</p>
-                <p><strong>Technical Skills:</strong> React, Javascript, Typescript, Testing, DDD, Hexagonal Architecture, Git</p>
+    <section id="projects">
+        <div class="content">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Project Title 1</h3>
+                    <p>Description of project 1.</p>
+                </div>
+                <div class="project-item">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>Project Title 2</h3>
+                    <p>Description of project 2.</p>
+                </div>
             </div>
-            <div class="job">
-                <h4>Domestika, Senior Frontend Engineer</h4>
-                <p>Created a new design system for the back office and decoupled the website from a monolithic Rails application into a React architecture.</p>
-                <p><strong>Technical Skills:</strong> React, Javascript, Testing, DDD, Hexagonal Architecture, Git</p>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <section class="skills">
-            <h3>Technical Skills</h3>
-            <ul>
-                <li>JavaScript, React, Typescript, Redux, Git</li>
-                <li>DDD, Test-driven development, Clean Code</li>
+    <section id="skills">
+        <div class="content">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
             </ul>
-        </section>
+        </div>
+    </section>
 
-        <section class="education">
-            <h3>Education</h3>
-            <p>Swift Developer Program, Apple Coding Academy - Enrolled</p>
-            <p>React + GraphQL and Testing, Fiztizia 2020</p>
-        </section>
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Me</h2>
+            <p>Want to work together or have any questions? Feel free to reach out.</p>
+            <a href="mailto:carlos@gonzalezlopez.dev" class="cta-button">Email Me</a>
+        </div>
+    </section>
 
-        <footer>
-            <p>Languages: Galician, Spanish, English</p>
-        </footer>
-    </div>
+    <footer>
+        <p>© 2024 Carlos González. All rights reserved.</p>
+    </footer>
 </body>
 </html>
