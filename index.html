@@ -3,80 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Portfolio Website">
-    <title>Personal Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <div class="nav-container">
-            <h1 class="logo">Carlos González</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <main class="container">
+        <section class="intro">
+            <h1>Hello! <span class="wave">👋</span></h1>
+            
+            <p class="bio">
+                I'm <span class="name">Carlos González</span>, a design-minded 
+                front-end software engineer focused on building interfaces & 
+                experiences <span class="emoji">👩‍💻</span>
+            </p>
+        </section>
 
-    <section id="hero">
-        <div class="hero-text">
-            <h2>Hello, I'm Carlos</h2>
-            <p>A passionate software developer building scalable web solutions.</p>
-            <a href="#projects" class="cta-button">View My Work</a>
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="content">
-            <h2>About Me</h2>
-            <p>I'm a Fullstack Developer based in A Coruña, with a love for building efficient, scalable software. When not coding, I enjoy running in the mountains and reading about cosmology.</p>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="content">
-            <h2>My Projects</h2>
-            <div class="project-grid">
-                <div class="project-item">
-                    <img src="project1.jpg" alt="Project 1">
-                    <h3>Project Title 1</h3>
-                    <p>Description of project 1.</p>
-                </div>
-                <div class="project-item">
-                    <img src="project2.jpg" alt="Project 2">
-                    <h3>Project Title 2</h3>
-                    <p>Description of project 2.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="skills">
-        <div class="content">
-            <h2>Skills</h2>
-            <ul class="skills-list">
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>TypeScript</li>
-                <li>Node.js</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="content">
-            <h2>Contact Me</h2>
-            <p>Want to work together or have any questions? Feel free to reach out.</p>
-            <a href="mailto:carlos@gonzalezlopez.dev" class="cta-button">Email Me</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>© 2024 Carlos González. All rights reserved.</p>
-    </footer>
+        <section class="contact">
+            <p>
+                Get in touch <span class="pointer">👉</span> 
+                <a href="mailto:linhos.cgonzalez@gmail.com" class="email">
+                    linhos.cgonzalez@gmail.com
+                </a>
+            </p>
+        </section>
+    </main>
 </body>
 </html>
