@@ -44,8 +44,12 @@ h1 {
     font-size: 1.25rem;
 }
 
+.get-in-touch {
+    margin-right: 1rem;
+}
+
 .icon-link {
-    color: var(--link-color);
+    color: #000;
     text-decoration: none;
     margin-left: 1rem;
     transition: color 0.2s ease;
